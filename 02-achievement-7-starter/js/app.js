@@ -37,5 +37,8 @@ if (mood === 'hungry') {
 const cloudy = true;
 
 if (cloudy) {
+  if (cloudy) {
+    
+  }
   console.log('Put on sun glasses.');
 }
