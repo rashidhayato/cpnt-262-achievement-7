@@ -14,10 +14,18 @@ if (timeOfDay && sleepy) {
 // Using a logical OR operator (||), refactor the following code into ONE if statement that contains ONE console log.
 
 const mood = 'happy';
+const appetite = 'hungry';
 
 if (mood === 'stressed') {
-  console.log('Pass the potato chips!');
+ if (mood|| appetite) {
+
+
+   console.log('Pass the potato chips!');
+ }
+ 
+ 
 }
+
 
 if (mood === 'hungry') {
   console.log('Pass the potato chips!');
